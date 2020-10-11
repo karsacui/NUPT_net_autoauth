@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 #获取IP地址
-IP=`curl -s http://p.njupt.edu.cn | grep v46ip | sed -n "s/.*v46ip='\(.*\)'.*/\1/p"`
+IP=`curl -s http://10.10.244.11 | grep v46ip | sed -n "s/.*v46ip='\(.*\)'.*/\1/p"`
 #随机生成的sessid
 PHPSESSID=`date |md5sum |head -c26`
 #上网账号
