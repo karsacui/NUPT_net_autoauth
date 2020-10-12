@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyright (c) 2020 Cui
+# Copyright (c) 2020 崔
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
