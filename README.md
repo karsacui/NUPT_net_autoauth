@@ -17,3 +17,8 @@
 其他操作
 -------
 判断网络连通后再执行： `ping -c1 baidu.com >/dev/null || sh autoauth.sh B19031234 123456`
+
+## Stargazers
+
+[![Stargazers over time](https://starchart.cc/karsacui/NUPT_net_autoauth.svg)](https://starchart.cc/karsacui/NUPT_net_autoauth)
+
