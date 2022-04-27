@@ -16,7 +16,7 @@
 
 其他操作
 -------
-判断网络连通后再执行(用ping)： `ping -c1 baidu.com > /dev/null || sh autoauth.sh B19031234 123456`
+判断网络连通后再执行(用ping)： `ping -c1 -w10 223.5.5.5 > /dev/null || sh autoauth.sh B19031234 123456`
 
 判断网络连通后再执行(用http)： `curl --connect-timeout 10 http://www.baidu.com/ > /dev/null || sh autoauth.sh B19031234 123456`
 
